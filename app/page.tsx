@@ -2,7 +2,6 @@ import { Hero, SearchBar, CustomFilter, CarCard } from "@/Components";
 import Image from "next/image";
 import { fetchCars } from "@/utils";
 import { fuels, yearsOfProduction } from "@/constants";
-import { useRouter } from "next/router";
 export default async function Home({ searchParams }: any) {
   const allCars = await fetchCars({
     manifacturer: searchParams.manifacturer || "",
