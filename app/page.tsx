@@ -3,7 +3,7 @@ import Image from "next/image";
 import { fetchCars } from "@/utils";
 import { fuels, yearsOfProduction } from "@/constants";
 import { useRouter } from "next/router";
-export default async function Home({ searchParams }) {
+export default async function Home({ searchParams }: any) {
   const allCars = await fetchCars({
     manifacturer: searchParams.manifacturer || "",
     year: searchParams.year || 2023,
