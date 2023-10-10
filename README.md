@@ -9,3 +9,7 @@ I can go around it by changing everything to client side but it is ants' work.
 ##Web-kit
 Next.js, React, TypeScript, Tailwind CSS.
 I used Rapid API for fetching data about the cars.
+
+
+https://github.com/YonatanToker/Toker_Rental--cars_shop/assets/116793943/69e29b7c-7d2e-45e3-a424-20c20b769ecc
+
